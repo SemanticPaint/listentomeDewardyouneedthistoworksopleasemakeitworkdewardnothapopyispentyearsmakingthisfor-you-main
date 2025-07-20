@@ -196,6 +196,33 @@ export default function ProjectOnePage() {
           <div className="w-full h-64 bg-gradient-to-br from-gray-700 to-gray-600 rounded-xl flex items-center justify-center shadow-2xl mb-12">
               <span className="text-gray-400 font-light text-lg">End Goal Image</span>
             </div>
+          {/* Specifics section */}
+          <div className="mt-16 animate-fade-in">
+            <div className="mb-8">
+              <h2 className="text-2xl font-bold text-white mb-4 border-b-2 border-white pb-2">
+                Specifics
+              </h2>
+            </div>
+            
+            <div className="space-y-6 text-gray-300 leading-relaxed">
+              <p>
+                <strong className="text-white">1) Do user research to understand what the audience valued.</strong><br />
+                Secondary research, asking lots of questions to the search-lite team about what their audience sweats about and responds well to.
+              </p>
+              
+              <p>
+                <strong className="text-white">2) Use the research to create a short easy-to-consume document the target audience would actually want to read.</strong>
+              </p>
+              
+              <p>
+                <strong className="text-white">3) Use the research to create a series of emails - the first one packing serious value so the readers would want to open the following emails. Each email offering a predefined value point. Each email supporting the Search-lite USP. No sudden pivot to a pitch email, instead each email offers a compelling reason to connect and get more info.</strong>
+              </p>
+              
+              <p>
+                <strong className="text-white">4) Use the research to create a website hitting every point needed to support the email campaign. Short, purely to convert readers to a contact request. Little organic traffic, mostly traffic from campaigns.</strong>
+              </p>
+            </div>
+          </div>
         </div>
         
       </div>
