@@ -50,15 +50,15 @@ export default function Page() {
           </div>
         </div>
         
-        {/* About section taking up the lower 1/4 */}
-        <div className="flex flex-row h-3/4 items-center justify-center px-8 md:px-16 py-8 bg-gradient-to-br from-gray-800 via-slate-800 to-gray-900 overflow-y-auto">
+        {/* About section - removed height constraint to flow naturally */}
+        <div className="flex flex-row items-center justify-center px-8 md:px-16 py-16 bg-gradient-to-br from-gray-800 via-slate-800 to-gray-900">
           <div className="max-w-4xl w-full">
             {/* Section heading with modern styling */}
-            <h2 className=" text-4xl md:text-5xl font-bold text-white mt-30 mb-10">Hi!</h2>
-            <div className="w-20 bg-gradient-to-r from-blue-400 to-purple-500 mb-6"></div>
+            <h2 className="text-4xl md:text-5xl font-bold text-white mb-10">Hi!</h2>
+            <div className="w-20 h-1 bg-gradient-to-r from-blue-400 to-purple-500 mb-6"></div>
             
             {/* Introduction text with modern typography */}
-            <p className="text-lg md:text-xl text-gray-300 mb-8 leading-relaxed font-light h-1">
+            <p className="text-lg md:text-xl text-gray-300 mb-8 leading-relaxed font-light">
               It's fair to say I lean towards the conscientious side of the spectrum. Feel responsible for:
             </p>
             
