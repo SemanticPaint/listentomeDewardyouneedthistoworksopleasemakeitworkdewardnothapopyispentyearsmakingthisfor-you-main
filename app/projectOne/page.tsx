@@ -223,6 +223,56 @@ export default function ProjectOnePage() {
               </p>
             </div>
           </div>
+          {/* Lead magnet section */}
+          <div className="mt-24 animate-fade-in">
+            <div className="mb-8">
+              <h2 className="text-2xl font-bold text-white mb-4 border-b-2 border-white pb-2">
+                Lead magnet
+              </h2>
+            </div>
+            
+            <p className="text-gray-300 text-lg mb-8">
+              The lead magnet set the tone for the following emails.
+            </p>
+            
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start">
+              {/* Left column - Description */}
+              <div>
+                <div className="space-y-6 text-gray-300 leading-relaxed">
+                  <p>
+                    The cover page was the first impression. It had to promise real value to clients looking for a recruiting solution, also had to reinforce the searchlite idea (yet to be revealed).
+                  </p>
+                  
+                  <p>
+                    The out-of-focus element needs to be resolved. The last page brings it into focus when we introduce the search-light name.
+                  </p>
+                </div>
+                
+                {/* Lead magnet cover image placeholder */}
+                <div className="w-full h-80 bg-gradient-to-br from-gray-700 to-gray-600 rounded-xl flex items-center justify-center shadow-2xl mt-8">
+                  <span className="text-gray-400 font-light text-lg">Lead Magnet Cover</span>
+                </div>
+              </div>
+              
+              {/* Right column - First page details */}
+              <div>
+                <div className="mb-6">
+                  <h3 className="text-xl font-bold text-white mb-4">
+                    The first page:
+                  </h3>
+                  <div className="space-y-2 text-gray-300">
+                    <p>1) gave a quick way for the reader to figure out if it was worth reading</p>
+                    <p>2) promised the reader it would be short (around 6 pages).</p>
+                  </div>
+                </div>
+                
+                {/* First page image placeholder */}
+                <div className="w-full h-80 bg-gradient-to-br from-gray-700 to-gray-600 rounded-xl flex items-center justify-center shadow-2xl">
+                  <span className="text-gray-400 font-light text-lg">First Page Layout</span>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
         
       </div>
