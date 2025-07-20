@@ -378,6 +378,24 @@ export default function ProjectOnePage() {
             <span className="text-gray-400 font-light text-lg">Website with Fixed Contact Button</span>
           </div>
         </div>
+
+        {/* Interactive header section */}
+        <div className="mt-24 animate-fade-in">
+          <div className="mb-8">
+            <h2 className="text-2xl font-bold text-white mb-4 border-b-2 border-white pb-2">
+              Interactive header
+            </h2>
+          </div>
+          
+          <p className="text-gray-300 leading-relaxed mb-8">
+            A big part of the experience is an interactive search-lite functionality in the header that scrolls across the screen at the start. Hovering or tapping lets users direct the searchlight over the candidates.
+          </p>
+          
+          {/* Interactive header image placeholder */}
+          <div className="w-full h-96 bg-gradient-to-br from-gray-700 to-gray-600 rounded-xl flex items-center justify-center shadow-2xl">
+            <span className="text-gray-400 font-light text-lg">Interactive Header Demo</span>
+          </div>
+        </div>
       </div>
       
       {/* Fixed Contact Button - positioned on left side, hidden on mobile */}
