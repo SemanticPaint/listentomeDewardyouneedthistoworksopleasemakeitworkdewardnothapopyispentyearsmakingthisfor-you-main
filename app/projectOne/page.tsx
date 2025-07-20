@@ -78,6 +78,45 @@ export default function ProjectOnePage() {
               </div>
             </div>
           </div>
+          
+          {/* Additional sections */}
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start mt-16">
+            {/* Left column - Developed responsive website */}
+            <div className="animate-fade-in">
+              <div className="mb-8">
+                <h2 className="text-2xl font-bold text-white mb-4 border-b-2 border-white pb-2">
+                  Developed responsive website
+                </h2>
+              </div>
+              
+              {/* Desktop and Mobile mockup placeholder */}
+              <div className="w-full h-64 bg-gradient-to-br from-gray-700 to-gray-600 rounded-xl flex items-center justify-center shadow-2xl mb-4">
+                <span className="text-gray-400 font-light text-lg">Desktop & Mobile Mockup</span>
+              </div>
+              
+              <p className="text-gray-300 text-sm">
+                Designed content presentation for different screen sizes.
+              </p>
+            </div>
+            
+            {/* Right column - Designed interaction */}
+            <div className="animate-fade-in">
+              <div className="mb-8">
+                <h2 className="text-2xl font-bold text-white mb-4 border-b-2 border-white pb-2">
+                  Designed interaction.
+                </h2>
+              </div>
+              
+              {/* Interactive design placeholder */}
+              <div className="w-full h-64 bg-gradient-to-br from-gray-700 to-gray-600 rounded-xl flex items-center justify-center shadow-2xl mb-4">
+                <span className="text-gray-400 font-light text-lg">Interactive Design Mockup</span>
+              </div>
+              
+              <p className="text-gray-300 text-sm mb-4">
+                An interactive search light swept in from the side and moved over candidates when user hovered. See it live on the site <a href="#" className="text-blue-400 hover:underline">here</a>.
+              </p>
+            </div>
+          </div>
         </div>
       </div>
     </div>
