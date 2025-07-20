@@ -330,6 +330,49 @@ export default function ProjectOnePage() {
           </div>
         </div>
         
+        {/* Emails section */}
+        <div className="mt-24 animate-fade-in">
+          <div className="mb-8">
+            <h2 className="text-2xl font-bold text-white mb-4 border-b-2 border-white pb-2">
+              Emails
+            </h2>
+          </div>
+          
+          <div className="space-y-6 text-gray-300 leading-relaxed">
+            <p>
+              Created the subject headings first based on user research. Challenged their usefulness. Incorporated search-lite strengths into each email, with a suggestion to talk to learn more.
+            </p>
+            
+            <p className="italic text-gray-400">
+              Emails are confidential.
+            </p>
+          </div>
+        </div>
+
+        {/* Developing the site section */}
+        <div className="mt-24 animate-fade-in">
+          <div className="mb-8">
+            <h2 className="text-2xl font-bold text-white mb-4 border-b-2 border-white pb-2">
+              Developing the site
+            </h2>
+          </div>
+          
+          <div className="space-y-6 text-gray-300 leading-relaxed">
+            <p>
+              <strong className="text-white">Keep it simple, get it done quick.</strong>
+            </p>
+            
+            <p>
+              Website was designed to support the campaign and address the audience pain points we uncovered early in the process. We wanted to build the site quickly and keep it as efficient as possible.
+            </p>
+            
+            <p>
+              <strong className="text-white">Make it easy to contact the company.</strong><br />
+              There is a button fixed to the left side of the page that stays there as you scroll. No need to find how to contact - the button is waiting.<br />
+              Disappears on mobile because the real estate is too cramped.
+            </p>
+          </div>
+        </div>
       </div>
     </div>
   )
