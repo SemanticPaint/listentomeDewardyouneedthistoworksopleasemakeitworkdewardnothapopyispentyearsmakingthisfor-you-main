@@ -273,6 +273,45 @@ export default function ProjectOnePage() {
               </div>
             </div>
           </div>
+
+          {/* Later pages section */}
+          <div className="mt-24 animate-fade-in">
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start">
+              {/* Left column - Later pages */}
+              <div>
+                <div className="mb-8">
+                  <h3 className="text-xl font-bold text-white mb-4">
+                    Later pages:
+                  </h3>
+                  <p className="text-gray-300 leading-relaxed">
+                    Easy to skim, lots of whitespace. Made sense right away and made a complex industry feel less complex.
+                  </p>
+                </div>
+                
+                {/* Later pages image placeholder */}
+                <div className="w-full h-80 bg-gradient-to-br from-gray-700 to-gray-600 rounded-xl flex items-center justify-center shadow-2xl">
+                  <span className="text-gray-400 font-light text-lg">Later Pages Layout</span>
+                </div>
+              </div>
+              
+              {/* Right column - Last page */}
+              <div>
+                <div className="mb-8">
+                  <h3 className="text-xl font-bold text-white mb-4">
+                    The last page:
+                  </h3>
+                  <p className="text-gray-300 leading-relaxed">
+                    Brought the out-of-focus picture into focus, tied into the 'search-lite' theme, and neatly wrapped up the USP with a call to action.
+                  </p>
+                </div>
+                
+                {/* Last page image placeholder */}
+                <div className="w-full h-80 bg-gradient-to-br from-gray-700 to-gray-600 rounded-xl flex items-center justify-center shadow-2xl">
+                  <span className="text-gray-400 font-light text-lg">Last Page Layout</span>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
         
       </div>
