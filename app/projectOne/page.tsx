@@ -314,6 +314,22 @@ export default function ProjectOnePage() {
           </div>
         </div>
         
+        {/* Search light graphic section */}
+        <div className="mt-24 animate-fade-in">
+          <div className="max-w-4xl mx-auto text-center">
+            <p className="text-gray-300 text-lg mb-8">
+              Constructing the search light graphic that highlights each tip in the whitepaper.
+            </p>
+            
+            {/* Search light construction image */}
+            <div className="w-full max-w-2xl mx-auto">
+              <div className="w-full h-80 bg-gradient-to-br from-gray-700 to-gray-600 rounded-xl flex items-center justify-center shadow-2xl">
+                  <span className="text-gray-400 font-light text-lg">Later Pages Layout</span>
+                </div>
+            </div>
+          </div>
+        </div>
+        
       </div>
     </div>
   )
