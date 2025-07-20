@@ -49,37 +49,37 @@ export default function Page() {
             <span className="text-gray-400 font-light text-lg">Photo placeholder</span>
           </div>
         </div>
-        
-        {/* About section - removed height constraint to flow naturally */}
-        <div className="flex flex-row items-center justify-center px-8 md:px-16 py-16 bg-gradient-to-br from-gray-800 via-slate-800 to-gray-900">
-          <div className="max-w-4xl w-full">
-            {/* Section heading with modern styling */}
-            <h2 className="text-4xl md:text-5xl font-bold text-white mb-10">Hi!</h2>
-            <div className="w-20 h-1 bg-gradient-to-r from-blue-400 to-purple-500 mb-6"></div>
-            
-            {/* Introduction text with modern typography */}
-            <p className="text-lg md:text-xl text-gray-300 mb-8 leading-relaxed font-light">
-              It's fair to say I lean towards the conscientious side of the spectrum. Feel responsible for:
-            </p>
-            
-            {/* Responsibility list with modern styling */}
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-3 md:gap-4">
-              <div className="flex items-start p-4 md:p-6 bg-gray-800/50 backdrop-blur-sm rounded-xl border border-gray-700 hover:border-gray-600 transition-colors">
-                <span className="text-blue-400 font-bold text-lg mr-3 md:mr-4 mt-1">1)</span>
-                <span className="text-gray-200 font-medium text-base md:text-lg">Reaching more of the total addressable market</span>
-              </div>
-              <div className="flex items-start p-4 md:p-6 bg-gray-800/50 backdrop-blur-sm rounded-xl border border-gray-700 hover:border-gray-600 transition-colors">
-                <span className="text-blue-400 font-bold text-lg mr-3 md:mr-4 mt-1">2)</span>
-                <span className="text-gray-200 font-medium text-base md:text-lg">Increasing conversion rates</span>
-              </div>
-              <div className="flex items-start p-4 md:p-6 bg-gray-800/50 backdrop-blur-sm rounded-xl border border-gray-700 hover:border-gray-600 transition-colors">
-                <span className="text-blue-400 font-bold text-lg mr-3 md:mr-4 mt-1">3)</span>
-                <span className="text-gray-200 font-medium text-base md:text-lg">Retaining more</span>
-              </div>
-              <div className="flex items-start p-4 md:p-6 bg-gray-800/50 backdrop-blur-sm rounded-xl border border-gray-700 hover:border-gray-600 transition-colors">
-                <span className="text-blue-400 font-bold text-lg mr-3 md:mr-4 mt-1">4)</span>
-                <span className="text-gray-200 font-medium text-base md:text-lg">Building better advocates</span>
-              </div>
+      </div>
+      
+      {/* About section - moved outside h-screen container */}
+      <div className="px-8 md:px-16 py-16 bg-gradient-to-br from-gray-800 via-slate-800 to-gray-900">
+        <div className="max-w-4xl mx-auto">
+          {/* Section heading with modern styling */}
+          <h2 className="text-4xl md:text-5xl font-bold text-white mb-10">Hi!</h2>
+          <div className="w-20 h-1 bg-gradient-to-r from-blue-400 to-purple-500 mb-6"></div>
+          
+          {/* Introduction text with modern typography */}
+          <p className="text-lg md:text-xl text-gray-300 mb-8 leading-relaxed font-light">
+            It's fair to say I lean towards the conscientious side of the spectrum. Feel responsible for:
+          </p>
+          
+          {/* Responsibility list with modern styling */}
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-3 md:gap-4">
+            <div className="flex items-start p-4 md:p-6 bg-gray-800/50 backdrop-blur-sm rounded-xl border border-gray-700 hover:border-gray-600 transition-colors">
+              <span className="text-blue-400 font-bold text-lg mr-3 md:mr-4 mt-1">1)</span>
+              <span className="text-gray-200 font-medium text-base md:text-lg">Reaching more of the total addressable market</span>
+            </div>
+            <div className="flex items-start p-4 md:p-6 bg-gray-800/50 backdrop-blur-sm rounded-xl border border-gray-700 hover:border-gray-600 transition-colors">
+              <span className="text-blue-400 font-bold text-lg mr-3 md:mr-4 mt-1">2)</span>
+              <span className="text-gray-200 font-medium text-base md:text-lg">Increasing conversion rates</span>
+            </div>
+            <div className="flex items-start p-4 md:p-6 bg-gray-800/50 backdrop-blur-sm rounded-xl border border-gray-700 hover:border-gray-600 transition-colors">
+              <span className="text-blue-400 font-bold text-lg mr-3 md:mr-4 mt-1">3)</span>
+              <span className="text-gray-200 font-medium text-base md:text-lg">Retaining more</span>
+            </div>
+            <div className="flex items-start p-4 md:p-6 bg-gray-800/50 backdrop-blur-sm rounded-xl border border-gray-700 hover:border-gray-600 transition-colors">
+              <span className="text-blue-400 font-bold text-lg mr-3 md:mr-4 mt-1">4)</span>
+              <span className="text-gray-200 font-medium text-base md:text-lg">Building better advocates</span>
             </div>
           </div>
         </div>
