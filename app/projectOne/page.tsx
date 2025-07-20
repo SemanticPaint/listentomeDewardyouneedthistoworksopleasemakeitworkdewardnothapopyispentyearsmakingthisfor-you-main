@@ -372,7 +372,16 @@ export default function ProjectOnePage() {
               Disappears on mobile because the real estate is too cramped.
             </p>
           </div>
+          
+          {/* Website mockup image */}
+          <div className="w-full h-96 bg-gradient-to-br from-gray-700 to-gray-600 rounded-xl flex items-center justify-center shadow-2xl mt-8">
+            <span className="text-gray-400 font-light text-lg">Website with Fixed Contact Button</span>
+          </div>
         </div>
+      </div>
+      
+      {/* Fixed Contact Button - positioned on left side, hidden on mobile */}
+      <div className="fixed left-4 top-1/2 transform -translate-y-1/2 z-50 hidden md:block">
       </div>
     </div>
   )
