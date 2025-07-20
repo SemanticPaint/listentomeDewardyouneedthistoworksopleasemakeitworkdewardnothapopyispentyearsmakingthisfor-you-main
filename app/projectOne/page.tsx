@@ -155,6 +155,47 @@ export default function ProjectOnePage() {
             </div>
           </div>
           
+          {/* End goal section */}
+          <div className="mt-24 animate-fade-in">
+            <div className="mb-8">
+              <h2 className="text-2xl font-bold text-white mb-4 border-b-2 border-white pb-2">
+                End goal
+              </h2>
+            </div>
+            
+            <p className="text-gray-300 text-lg mb-8">
+              Contact requests. That's it.
+            </p>
+            
+            {/* Image placeholder */}
+            
+          </div>
+          
+          {/* How section */}
+          <div className="mt-16 animate-fade-in">
+            <div className="mb-8">
+              <h2 className="text-2xl font-bold text-white mb-4 border-b-2 border-white pb-2">
+                How
+              </h2>
+            </div>
+            
+            <div className="space-y-6 text-gray-300 leading-relaxed">
+              <p>
+                <strong className="text-white">1) Lead magnet leading to a drip email campaign.</strong>
+              </p>
+              
+              <p>
+                <strong className="text-white">2) Easy-to-skim website. Short, packed with enough relevance to drive a contact request.</strong>
+              </p>
+              
+              <p className="italic">
+                Everything reinforces the 'search-lite' metaphor. Everything is the shortest route possible to a contact request.
+              </p>
+            </div>
+          </div>
+          <div className="w-full h-64 bg-gradient-to-br from-gray-700 to-gray-600 rounded-xl flex items-center justify-center shadow-2xl mb-12">
+              <span className="text-gray-400 font-light text-lg">End Goal Image</span>
+            </div>
         </div>
         
       </div>
