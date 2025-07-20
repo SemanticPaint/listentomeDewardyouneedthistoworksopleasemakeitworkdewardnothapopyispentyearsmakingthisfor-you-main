@@ -309,6 +309,39 @@ export default function Page() {
           </p>
         </div>
       </div>
+      <div className="py-16 px-8 md:px-16 bg-gradient-to-br from-slate-800 via-gray-800 to-gray-900 animate-on-scroll">
+        <div className="max-w-6xl mx-auto">
+          {/* Work cards grid */}
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+            {/* Card 7 */}
+            <div className="stagger-card bg-gray-800/60 backdrop-blur-sm rounded-2xl p-8 border border-gray-700 hover:border-gray-600 transition-all duration-500 hover:transform hover:scale-105 hover:shadow-2xl cursor-pointer group">
+              <div className="w-full h-48 bg-gradient-to-br from-gray-700 to-gray-600 rounded-xl mb-6 flex items-center justify-center overflow-hidden group-hover:scale-110 transition-transform duration-500">
+                <span className="text-gray-400 font-light">Project Image</span>
+              </div>
+              <h3 className="text-2xl font-bold text-white mb-3 group-hover:text-green-400 transition-colors duration-300">Project Seven</h3>
+              <p className="text-gray-300 leading-relaxed">Description of the seventh project showcasing outdoor adventure analytics and user engagement.</p>
+            </div>
+
+            {/* Card 8 */}
+            <div className="stagger-card bg-gray-800/60 backdrop-blur-sm rounded-2xl p-8 border border-gray-700 hover:border-gray-600 transition-all duration-500 hover:transform hover:scale-105 hover:shadow-2xl cursor-pointer group">
+              <div className="w-full h-48 bg-gradient-to-br from-gray-700 to-gray-600 rounded-xl mb-6 flex items-center justify-center overflow-hidden group-hover:scale-110 transition-transform duration-500">
+                <span className="text-gray-400 font-light">Project Image</span>
+              </div>
+              <h3 className="text-2xl font-bold text-white mb-3 group-hover:text-green-400 transition-colors duration-300">Project Eight</h3>
+              <p className="text-gray-300 leading-relaxed">Description of the eighth project highlighting travel and hospitality marketing optimization.</p>
+            </div>
+            
+            {/* Card 9 */}
+            <div className="stagger-card bg-gray-800/60 backdrop-blur-sm rounded-2xl p-8 border border-gray-700 hover:border-gray-600 transition-all duration-500 hover:transform hover:scale-105 hover:shadow-2xl cursor-pointer group">
+              <div className="w-full h-48 bg-gradient-to-br from-gray-700 to-gray-600 rounded-xl mb-6 flex items-center justify-center overflow-hidden group-hover:scale-110 transition-transform duration-500">
+                <span className="text-gray-400 font-light">Project Image</span>
+              </div>
+              <h3 className="text-2xl font-bold text-white mb-3 group-hover:text-green-400 transition-colors duration-300">Project Nine</h3>
+              <p className="text-gray-300 leading-relaxed">Description of the ninth project demonstrating outdoor lifestyle brand growth and community building.</p>
+            </div>
+          </div>
+        </div>
+      </div>
 
       {/* People say testimonial section */}
       <div className="py-16 px-8 md:px-16 bg-gradient-to-br from-slate-800 via-gray-800 to-gray-900 animate-on-scroll">
